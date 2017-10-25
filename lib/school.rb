@@ -19,9 +19,7 @@ class School
   end
 
   def sort
-    @roster.each do |key|
-      if key(1) > key(2)
-        +1
+    @roster.key.sort
       end
     end
   end
