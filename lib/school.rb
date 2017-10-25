@@ -12,5 +12,6 @@ class School
   def roster=(roster)
     @roster = roster
     ROSTERS << roster
+  end
 
 end
