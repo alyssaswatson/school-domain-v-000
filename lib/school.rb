@@ -20,7 +20,6 @@ class School
 
   def sort
     @roster.sort_by {|grade| grade}.to_h
-    return @roster
   end
 
 end
