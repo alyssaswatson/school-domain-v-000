@@ -10,7 +10,10 @@ class School
   end
 
   def add_student(student, grade)
-    
+    roster.each do |student, grade|
+
+    end
+
   end
 
 end
