@@ -11,7 +11,7 @@ class School
 
   def add_student(student, grade)
     roster.each do |student, grade|
-      roster << {grade => [student]
+      roster << {grade => [student]}
     end
   end
 
