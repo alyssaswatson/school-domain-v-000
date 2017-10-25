@@ -1,7 +1,7 @@
 # code here!
 class School
 
-  attr_accessor :roster
+  attr_accessor :roster, :grade
 
 
   def initialize(school)
@@ -12,6 +12,9 @@ class School
   def add_student(student, grade)
     @roster[grade] = [] unless @roster.key?(grade)
     @roster[grade] << student
+  end
+
+  def grade
   end
 
 end
