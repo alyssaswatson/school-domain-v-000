@@ -13,5 +13,4 @@ class School
     @roster = roster
     ROSTERS << roster
 
-
 end
