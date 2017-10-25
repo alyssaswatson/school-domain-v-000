@@ -23,6 +23,7 @@ class School
       if key(1) > key(2)
         +1
       end
+    end
   end
 
 end
