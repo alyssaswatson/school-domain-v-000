@@ -11,9 +11,8 @@ class School
 
   def add_student(student, grade)
     roster.each do |student, grade|
-
+      roster << student && grade
     end
-
   end
 
 end
